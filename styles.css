@@ -1,0 +1,25 @@
+body {
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+label {
+    font-family: Montserrat;
+    font-size: 1.123rem;
+    font-weight: 500;
+}
+
+input {
+    font-family: Montserrat;
+}
+
+.clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+}

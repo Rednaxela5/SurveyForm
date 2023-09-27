@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PUP Survey Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 id="title">PUP Survey Form<h1>
+                <p id="description" class="description">This survey form will serve as guidelines for the improvement of our classrooms</p>
+            </header>
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label" for="name">Name</label>
+                    <input id="name" type="text" placeholder="Enter your name" required/>
+                </div>
+                <div class="form-group">
+                    <label id="email-label" for="email">Email</label>
+                    <input id="email" type="email" placeholder="Enter your Email" required>
+                </div>
+                <div>
+                    <label id="number-label" for="number">Age
+                        <span class="clue">(optional)</span>
+                    </label>
+                    <input id="number" type="number" min="10" max="99" placeholder="Age">
+                </div>
+                <div>
+                    <p>What can you donate to our classroom?</p>
+                    <select id="dropdown" name="classroom" required>
+                        <option disabled selected value>Select an option</option>
+                        <option value="books">Books</option>
+                        <option value="chairs">Chairs</option>
+                        <option value="tables">Tables</option>
+                        <option value="computers">Computers</option>
+                        <option value="others">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <p>What is your mode of learning?</p>
+                    <label>
+                        <input name="mode" value="online" type="radio" class="input-radio" checked /> Online
+                    </label>
+                    <label>
+                        <input name="mode" value="correspondence" type="radio" class="input-radio" /> Correspondence
+                    </label>
+                    <label>
+                        <input name="mode" value="blended" type="radio" class="input-radio" /> Blended
+                    </label>
+                </div>
+                <div>
+                    <p>Hobbies</p>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="reading" /> Reading
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="writing" /> Writing
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="coding" /> Coding
+                    </label>
+                </div>
+                <div>
+                    <label>Any comments or suggestions?</label>
+                    <textarea id="comments" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
