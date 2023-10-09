@@ -2,7 +2,7 @@
 The purpose of this repo is to monitor my progress in learning HTML by making a basic [Survey Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-survey-form-project).
 
 ## Screenshots
-<img src="assets/readme-screenshots/SurveyForm_output2.png" alt="Survey Form Output"/>
+<img src="assets/readme-screenshots/SurveyForm_output3.png" alt="Survey Form Output"/>
 <img src="assets/readme-screenshots/freecodecamp_completion.png" alt="FreeCodeCamp Completion"/>
 
 ## Learnings
