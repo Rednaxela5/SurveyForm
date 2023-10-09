@@ -1,25 +1,109 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+
 body {
     font-family: Montserrat;
     text-align: center;
+    background-color: #d5dae9;
 }
 
+p {
+    font-family: Montserrat;
+    font-size: 1.123rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 0;
+}
+label {
+    display: block;
+    font-family: Montserrat;
+    font-size: 1.123rem;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0.5em; /* Adjust margin-bottom for proper spacing */
+}
+.formgroup label {
+    padding-left: 0;
+}
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(182, 194, 227);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
 .description {
     font-size: 16px;
     font-style: italic;
     font-weight: normal;
 }
 
-label {
+input[type="text"], 
+input[type="email"], 
+input[type="number"],
+select,
+textarea {
     font-family: Montserrat;
-    font-size: 1.123rem;
-    font-weight: 500;
+    width: 300px;
+    min-height: 2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 1em;
+    box-sizing: border-box;
 }
 
-input {
-    font-family: Montserrat;
+input[type="radio"], 
+input[type="checkbox"] {
+    margin-right: 5px;
 }
+select {
+    width: 80%;
+    min-height: 2em;
+    border-radius: 5px;
+    border-style: hidden;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+
 
 .clue {
     margin-left: 0.25rem;
     font-size: 0.9rem;
+}
+
+input[type="submit"] {
+    width: 100;
+    max-width: 300px;
+    margin: 1em 0;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea {
+    font-family: Montserrat;
+    width: 80%;
+    min-height: 6em;
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 0.2em;
+    margin-bottom: 1em;
 }
